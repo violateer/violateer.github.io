@@ -2,6 +2,7 @@
 title: CSS3新增属性
 index_img: /img/css_mini.png
 excerpt: 记录了我学习CSS3的学习笔记
+hide: true
 ---
 
 # CSS3新增
