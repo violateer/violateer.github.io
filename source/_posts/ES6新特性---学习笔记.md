@@ -205,7 +205,7 @@ excerpt: 记录了ES6的新特性以及我的一些理解
   }
   ```
 
-+ ==**this**的指向是静态的，**this**始终指向函数声明时所在作用域下的**this**的值==
++ **this**的指向是静态的，**this**始终指向函数声明时所在作用域下的**this**的值
 
   ```js
   // 普通函数
@@ -945,7 +945,7 @@ excerpt: 记录了ES6的新特性以及我的一些理解
     console.log(s); // 输出 Set(0) {}
     ```
   
-+ 集合(Set)实现了iterator接口，所以可以使用==扩展运算符==和==for...of==进行遍历
++ 集合(Set)实现了iterator接口，所以可以使用`扩展运算符`和`for...of`进行遍历
 
   ```js
   const s = new Set(['A', 'B', 'C']);
@@ -1074,7 +1074,7 @@ excerpt: 记录了ES6的新特性以及我的一些理解
     console.log(map.values()); // ['a', 'b']
     ```
   
-+ **Map**也实现了iterator接口，所以可以使用==扩展运算符==和==for...of==进行遍历
++ **Map**也实现了iterator接口，所以可以使用`扩展运算符`和`for...of`进行遍历
 
   ```js
   for (let v of m){
