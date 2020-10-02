@@ -1,6 +1,6 @@
 ---
 title: 获取当前事件源DOM
-index_img: /img/javascript_mini.png
+index_img: /img/Vue.png
 excerpt: Vue中获取当前事件源的方法
 ---
 

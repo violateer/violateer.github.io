@@ -1,6 +1,6 @@
 ---
 title: Vue中的$event详解 
-index_img: /img/javascript_mini.png
+index_img: /img/Vue.png
 excerpt: 记录我对Vue中$event的理解
 ---
 
