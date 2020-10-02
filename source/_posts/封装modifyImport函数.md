@@ -1,3 +1,9 @@
+---
+title: js的Array和String在实际项目中的一些运用
+index_img: /img/javascript_mini.png
+excerpt: 记录了我对Array和String方法的一些理解
+---
+
 最近在写项目时碰到了一个问题，已解决，在此记录下仅作学习用。
 
 ## 需求

@@ -1,3 +1,9 @@
+---
+title: 获取当前事件源DOM
+index_img: /img/javascript_mini.png
+excerpt: Vue中获取当前事件源的方法
+---
+
 ## 获取当前事件源DOM
 
 今天用Vue3写程序时遇到了一个问题，原代码如下：

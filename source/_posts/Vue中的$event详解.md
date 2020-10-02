@@ -1,3 +1,9 @@
+---
+title: Vue中的$event详解 
+index_img: /img/javascript_mini.png
+excerpt: 记录我对Vue中$event的理解
+---
+
 最近学习Vue的过程中，接触到了事件对象`$event`，记录一下我的理解。
 
 #### 场景1：获取原生DOM事件的事件对象
@@ -25,7 +31,7 @@ export default {
 
 当我们点击button按钮时，可以看到控制台打印出的事件对象，如下图：
 
-![打印$event对象](assets/%E6%89%93%E5%8D%B0$event.png)
+![打印$event对象](/img/打印$event.png)
 
 通过该对象自带的一些属性，我们可以避免过多的冗余代码，细化代码。
 
@@ -81,4 +87,4 @@ export default {
 
 此时我们点击hello按钮，就会将子组件传入的`'hello'`字符串在页面上显示出来，如下图
 
-![$event子组件传值到父组件](assets/$event%E5%AD%90%E7%BB%84%E4%BB%B6%E4%BC%A0%E5%80%BC%E5%88%B0%E7%88%B6%E7%BB%84%E4%BB%B6.png)
+![$event子组件传值到父组件](/img/$event子组件传值到父组件.png)
